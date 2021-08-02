@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "CocoaLumberjack",
     platforms: [
-        .iOS(.v9),
-        .macOS(.v10_10),
-        .watchOS(.v3),
-        .tvOS(.v9),
+        .iOS(.v12),
+        .macOS(.v10_14),
+        .watchOS(.v5),
+        .tvOS(.v12),
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
